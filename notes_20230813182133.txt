@@ -1,0 +1,94 @@
+08.13 6:20 PM
+Task 1 (OCTANET)
+
+Index.html 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Interactive Landing Page</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to our Interactive Landing Page</h1>
+            <p>Discover amazing experiences tailored to your interests.</p>
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h2>Discover</h2>
+            <p>Explore a world of possibilities and uncover hidden gems.</p>
+        </div>
+        <div class="feature">
+            <h2>Connect</h2>
+            <p>Connect with like-minded individuals who share your passions.</p>
+        </div>
+        <div class="feature">
+            <h2>Learn</h2>
+            <p>Learn from experts and enhance your skills in various fields.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2023 Interactive Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+styles.Css
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.column {
+    flex: 1;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin: 0 1rem;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
